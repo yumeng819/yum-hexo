@@ -2,7 +2,7 @@
 title: es6之let&const
 date: 2019-09-25
 categories: 技术
-tags: [教程]
+tags: [es6]
 comments: true
 ---
 
@@ -10,7 +10,7 @@ comments: true
 ### var的缺点
 1、污染全局变量 
 2、变量提升 （在未声明之前 会预先定义）
-```
+```Javascript
 console.log(a)
 var a = 1;
 // undeined
@@ -27,7 +27,7 @@ var a = 1;
 3、同一个作用域下不可以重复定义
 4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题
 
-```
+```Javascript
 let a = 1;
 {
     console.log(a);

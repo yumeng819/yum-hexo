@@ -2,7 +2,7 @@
 title: 小白级hexo+github搭建
 date: 2019-08-12  
 categories: 技术
-tags: [教程]
+tags: [hexo]
 comments: true
 ---
 ## 小白级hexo+github搭建
@@ -14,7 +14,7 @@ comments: true
 
 > 第三部 我们就开始来使用hexo啦
 
-```
+```Javascript
 npm run install hexo -g //安装hexo
 hexo -v //检查是否成功
 hexo init //初始化项目
@@ -36,7 +36,7 @@ hexo s //开启服务
 - 其次，配置_config.yml中有关deploy的部分：
 
 
-```
+```Javascript
 deploy:
   type: git 
   repo: git@github.com:yumeng819/yumeng819.github.io.git
@@ -62,7 +62,7 @@ hexo会帮我们在_posts下生成相关md文件<br>
 
 ##### 常见的hexo命令
 
-```
+```Javascript
 hexo new "postName" #新建文章 缩写：hexo n
 hexo new page "pageName" #新建页面
 hexo generate #生成静态页面至public目录 缩写：hexo g
